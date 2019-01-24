@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061346282188BFCE0048C939 /* Emu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061346272188BFCE0048C939 /* Emu.swift */; };
+		062A7577219367C500C44A8B /* smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 062A7576219367C500C44A8B /* smoke.sks */; };
 		06C1CCE92167D8690058EC7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C1CCE82167D8690058EC7F /* AppDelegate.swift */; };
-		06C1CCEB2167D8690058EC7F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06C1CCEA2167D8690058EC7F /* GameScene.sks */; };
-		06C1CCED2167D8690058EC7F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 06C1CCEC2167D8690058EC7F /* Actions.sks */; };
 		06C1CCEF2167D8690058EC7F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C1CCEE2167D8690058EC7F /* GameScene.swift */; };
 		06C1CCF12167D8690058EC7F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C1CCF02167D8690058EC7F /* GameViewController.swift */; };
 		06C1CCF42167D8690058EC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C1CCF22167D8690058EC7F /* Main.storyboard */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061346272188BFCE0048C939 /* Emu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emu.swift; sourceTree = "<group>"; };
+		062A7576219367C500C44A8B /* smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = smoke.sks; sourceTree = "<group>"; };
 		06C1CCE52167D8680058EC7F /* Emu War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emu War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C1CCE82167D8690058EC7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06C1CCEA2167D8690058EC7F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		06C1CCEC2167D8690058EC7F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		06C1CCEE2167D8690058EC7F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		06C1CCF02167D8690058EC7F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		06C1CCF32167D8690058EC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,15 +60,15 @@
 		06C1CCE72167D8680058EC7F /* Emu War */ = {
 			isa = PBXGroup;
 			children = (
+				061346272188BFCE0048C939 /* Emu.swift */,
 				06C1CCE82167D8690058EC7F /* AppDelegate.swift */,
-				06C1CCEA2167D8690058EC7F /* GameScene.sks */,
-				06C1CCEC2167D8690058EC7F /* Actions.sks */,
 				06C1CCEE2167D8690058EC7F /* GameScene.swift */,
 				06C1CCF02167D8690058EC7F /* GameViewController.swift */,
 				06C1CCF22167D8690058EC7F /* Main.storyboard */,
 				06C1CCF52167D86B0058EC7F /* Assets.xcassets */,
 				06C1CCF72167D86B0058EC7F /* LaunchScreen.storyboard */,
 				06C1CCFA2167D86B0058EC7F /* Info.plist */,
+				062A7576219367C500C44A8B /* smoke.sks */,
 			);
 			path = "Emu War";
 			sourceTree = "<group>";
@@ -131,11 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062A7577219367C500C44A8B /* smoke.sks in Resources */,
 				06C1CCF42167D8690058EC7F /* Main.storyboard in Resources */,
-				06C1CCEB2167D8690058EC7F /* GameScene.sks in Resources */,
 				06C1CCF62167D86B0058EC7F /* Assets.xcassets in Resources */,
 				06C1CCF92167D86B0058EC7F /* LaunchScreen.storyboard in Resources */,
-				06C1CCED2167D8690058EC7F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +148,7 @@
 				06C1CCEF2167D8690058EC7F /* GameScene.swift in Sources */,
 				06C1CCF12167D8690058EC7F /* GameViewController.swift in Sources */,
 				06C1CCE92167D8690058EC7F /* AppDelegate.swift in Sources */,
+				061346282188BFCE0048C939 /* Emu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +295,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 883DK65VTV;
 				INFOPLIST_FILE = "Emu War/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +314,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 883DK65VTV;
 				INFOPLIST_FILE = "Emu War/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
